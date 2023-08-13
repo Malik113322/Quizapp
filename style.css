@@ -44,6 +44,7 @@ h4 {
    background-color: #3a4452;
    border-radius: 10px;
    box-shadow: 8px 5px 15px 15px rgba(0,0,0,0.6);
+   overflow-y: auto;
 }
 
 #answer-btns {
