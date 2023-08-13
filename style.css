@@ -39,8 +39,8 @@ h4 {
 
 #quiz {
    width: 400px;
+   height: 480px;
    padding: 2rem;
-   /* border: 3px solid #ffff; */
    background-color: #3a4452;
    border-radius: 10px;
    box-shadow: 8px 5px 15px 15px rgba(0,0,0,0.6);
@@ -83,8 +83,16 @@ h4 {
 #nextBtn {
    width: 100px;
    height: 40px;
-   margin: 1rem auto;
+   margin: auto;
    border-radius: 8px;
+   border: none;
+   background-color: green;
+   color: #ffff;
+   font: 600 1rem "Arial";
+}
+
+#nextBtn:hover{
+   background-color: blue;
 }
 
 @media screen and (max-width: 720px){
